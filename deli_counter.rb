@@ -17,8 +17,6 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   while katz_deli.count > 0
     katz_deli.each_with_index do |name, position| puts "Welcome, #{name}. You are number #{position+1} in line."
-    break
-    end
   end 
 end
 
